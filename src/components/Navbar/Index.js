@@ -22,7 +22,7 @@ const Navbar = ({toggle}) => {
           <Nav scrollNav={scrollNav}>
               <NavbarContainer>
                   <NavLogo to={'/'} onClick={toggleHome}>
-                        NSL
+                        ME
                   </NavLogo>
                   <MobileIcon onClick={toggle}>
                     <FaBars/>
