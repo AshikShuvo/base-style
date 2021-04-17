@@ -43,26 +43,26 @@ const Navbar = ({toggle}) => {
                           duration={500}
                           spy={true}
                           exact='true'
-                          offset={-80}to='discover'>Discover</NavLinks>
+                          offset={-80}to='tools'>Tools</NavLinks>
                       </NavItem>
                       <NavItem>
                         <NavLinks  smooth={true}
                           duration={500}
                           spy={true}
                           exact='true'
-                          offset={-80}to='services'>Services</NavLinks>
+                          offset={-80}to='projects'>Projects</NavLinks>
                       </NavItem>
-                      <NavItem>
+                      {/* <NavItem>
                         <NavLinks  smooth={true}
                           duration={500}
                           spy={true}
                           exact='true'
                           offset={-80}to='signup'>signup</NavLinks>
-                      </NavItem>
+                      </NavItem> */}
                   </NavMenu>
-                  <NavBtn>
+                  {/* <NavBtn>
                       <NaBtnLink to='signin'>Sign in</NaBtnLink>
-                  </NavBtn>
+                  </NavBtn> */}
 
               </NavbarContainer>
           </Nav>  

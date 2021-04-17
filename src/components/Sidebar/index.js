@@ -26,8 +26,8 @@ const Sidebar = ({isOpen,toggle}) => {
                      exact='true'
                      offset={-80}
                      onClick={toggle}
-                    to='discover'>
-                        discover
+                    to='tools'>
+                        Tools
                     </SidebarLink>
                     <SidebarLink 
                      smooth={true}
@@ -36,10 +36,10 @@ const Sidebar = ({isOpen,toggle}) => {
                      exact='true'
                      offset={-80}
                      onClick={toggle}
-                    to='services'>
-                        services
+                    to='projects'>
+                        Projects
                     </SidebarLink>
-                    <SidebarLink 
+                    {/* <SidebarLink 
                          smooth={true}
                          duration={500}
                          spy={true}
@@ -48,13 +48,13 @@ const Sidebar = ({isOpen,toggle}) => {
                          offset={-80}
                     to='signup'>
                         signup
-                    </SidebarLink>
+                    </SidebarLink> */}
                 </SidebarMenu>
-                <SideBtnWrap>
+                {/* <SideBtnWrap>
                     <SidebarBtnRoute to='/signin'>
                         Sign in
                     </SidebarBtnRoute>
-                </SideBtnWrap>
+                </SideBtnWrap> */}
             </SidebarWrapper>
         </SidebarContainer>
     )

@@ -1,4 +1,4 @@
-import img from '../../images/svg-1.svg'
+import tools from '../../images/tools.svg'
 import goal from '../../images/goal.svg'
 export const homeObjOne={
     id:'about',
@@ -16,20 +16,20 @@ export const homeObjOne={
     alt:'goal',
     dark:false,
     primary:false,
-    darkText:true
+    darkText:false,
 } 
 export const homeObjTwo={
-    id:'discover',
+    id:'tools',
     lightBg:true,
     lightText:false,
     lightTextDesc:false,
-    topLine:'premimum Bank',
-    headLine:'Unlimited transaction with zero fees',
-    description:'get access to ur exclusive app that allows you to send unlimited transaction without getting charged any fees.',
+    topLine:'Tools I Worked With',
+    headLine:'I Love To Explore Technologies',
+    description:'I work with react js now but i also explore Nest js as backend framework. I do my problem solving in different platform such as leetcode using JavaScript as I am a big fan of JavaScript. Beside that I explore Java, C#, PHP and also some front-end frame work like angular and backend frame work like Laravel',
     buttonLabel:'get Started',
     imgStart:true,
-    img:img,
-    alt:'car',
+    img:tools,
+    alt:'me',
     dark:true,
     primary:true,
     darkText:true
@@ -44,7 +44,7 @@ export const homeObjThree={
     description:'get access to ur exclusive app that allows you to send unlimited transaction without getting charged any fees.',
     buttonLabel:'learn More',
     imgStart:false,
-    img:img,
+    img:tools,
     alt:'car',
     dark:false,
     primary:false,
